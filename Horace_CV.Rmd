@@ -1,9 +1,12 @@
+install.packages("tinytex")
+tinytex::install_tinytex()
+
 ---
 output: stevetemplates::cv
 geometry: margin=1in
 
 title: "CV"
-author: Horace Owiti Onyango
+author: Horace Owiti Onyango and Lei Sun
 
 jobtitle: "Research Scientist, Fisheries Economics"
 address: "Kenya Marine and Fisheries Research Institute, PO BOX 1881-40100, Kisumu-Kenya "
